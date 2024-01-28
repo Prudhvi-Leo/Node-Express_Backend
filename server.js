@@ -13,7 +13,8 @@ app.set('view engine' , 'ejs')
 const {router } = require('./router/index')
 app.use(router)
 
-
 app.listen(PORT , ()=>{
     console.log(`Listening on port ${PORT}`)
 });
+
+app;;
